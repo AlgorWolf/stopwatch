@@ -33,7 +33,9 @@ function stopStopwatch(){
 } 
 function resetStopwatch(){
     clearInterval(Interval)
-    appendDisplay = "00:00:00"
-    stopwatchDisplay.innerHTML = appendDisplay
-
+    appendDisplay = "10:00:00"
+   stopwatchDisplay.innerHTML = appendDisplay
+   stopwatchMilliseconds = 0
+   stopwatchSeconds = 0
+   stopwatchMinutes = 0
 }
